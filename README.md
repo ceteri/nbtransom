@@ -7,7 +7,12 @@ collaborative document features in Jupyter.
 
 ## Usage
 
-Try running:
+To set up:
+```
+pip install -r requirements.txt
+```
+
+Then try running:
 ```
 python nbtransom.py
 ```
