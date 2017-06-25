@@ -44,6 +44,7 @@ Dependencies and Installation
 This code has dependencies on:
 
 -  `nbformat <https://github.com/jupyter/nbformat>`_
+-  `pandas <https://pandas.pydata.org/>`_
 
 To install from `PyPi <https://pypi.python.org/pypi/nbtransom>`_:
 
