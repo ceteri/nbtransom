@@ -5,11 +5,12 @@ def readme():
         return f.read()
 
 setup(name='nbtransom',
-      version='1.0.0',
+      version='1.0.1',
       description='Machines and people collaborating together through Jupyter notebooks.',
       long_description=readme(),
       classifiers=[
         'Development Status :: 5 - Production/Stable',
+        'Framework :: Jupyter',
         'Intended Audience :: Developers',
         'Intended Audience :: Information Technology',
         'Intended Audience :: Science/Research',
@@ -20,7 +21,7 @@ setup(name='nbtransom',
         'Topic :: Scientific/Engineering :: Human Machine Interfaces',
         'Topic :: Scientific/Engineering :: Information Analysis',
       ],
-      keywords='pipelines, human-in-the-loop, collaborative documents, jupyter notebook, machine learning, python',
+      keywords='human-in-the-loop, active learning, collaborative documents, jupyter notebook, pipelines, machine learning',
       url='http://github.com/ceteri/nbtransom',
       author='Paco Nathan',
       author_email='ceteri@gmail.com',
@@ -28,5 +29,6 @@ setup(name='nbtransom',
       packages=['nbtransom'],
       install_requires=[
           'nbformat',
+          'pandas',
       ],
       zip_safe=False)

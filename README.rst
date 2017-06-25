@@ -3,7 +3,8 @@ Active Learning with Jupyter Notebooks
 
 This is a Python 3 library to read/write cells programmatically in
 `Jupyter notebooks <https://jupyter.org/>`_ which anticipates upcoming
-collaborative document features in Jupyter.
+`collaborative <https://groups.google.com/forum/#!topic/jupyter/r7QSObF5YSg>`_
+features in Jupyter.
 
 We use this at `O'Reilly Media <https://www.oreilly.com/>`_ for
 notebooks used to manage machine learning pipelines.
@@ -30,7 +31,8 @@ file, then runs it:
     python test.py
     jupyter notebook
 
-Then from the ``Cells`` menu select ``Run All`` to view the results.
+Then launch the ``test.ipynb`` notebook and from the ``Cells`` menu
+select ``Run All`` to view results.
 
 NB: whenever you use the ``put_df()`` function to store data as a 
 `Pandas dataframe <https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html>`_

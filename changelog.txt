@@ -1,0 +1,19 @@
+# pytextrank changelog
+
+## 1.0.1
+
+2017-06-25
+
+### Improved
+
+ * better keywords and topics for PyPi
+
+
+## 1.0.0
+
+2017-06-25
+
+### Improved
+
+ * updated for initial release on PyPi
+ * included example `import pandas as pd`
