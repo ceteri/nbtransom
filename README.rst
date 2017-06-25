@@ -6,16 +6,16 @@ This is a Python 3 library to read/write cells programmatically in
 collaborative document features in Jupyter.
 
 We use this at `O'Reilly Media <https://www.oreilly.com/>`_ for
-notebooks used to manage machine learning pipelines. In other words,
-*machines and people collaborate on documents*, implementing a
-"human-in-the-loop" design pattern:
+notebooks used to manage machine learning pipelines.
+That is to say, *machines and people collaborate on documents*, 
+implementing a "human-in-the-loop" design pattern:
 
 -  people adjust hyperparameters for the ML pipelines
 -  machines write structured "logs" during ML modeling/evaluation
 -  people run ``jupyter notebook`` via SSH tunnel for remote access
 
 For more info about use cases for this library and *active learning* 
-in general, see the`JupyterCon 2017 <https://jupytercon.com/>`_ talk
+in general, see the `JupyterCon 2017 <https://jupytercon.com/>`_ talk
 `Humans in the loop <https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/60058>`_
 
 
@@ -30,7 +30,7 @@ file, then runs it:
     python test.py
     jupyter notebook
 
-From the ``Cells`` menu select the ``Run All`` command to see the results.
+Then from the ``Cells`` menu select ``Run All`` to view the results.
 
 NB: whenever you use the ``put_df()`` function to store data as a 
 `Pandas dataframe <https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html>`_
