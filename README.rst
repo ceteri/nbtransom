@@ -11,7 +11,7 @@ notebooks used to manage machine learning pipelines.
 That is to say, *machines and people collaborate on documents*, 
 implementing a "human-in-the-loop" design pattern:
 
--  people adjust hyperparameters for the ML pipelines
+-  people adjust parameters for the ML pipelines
 -  machines write structured "logs" during ML modeling/evaluation
 -  people run ``jupyter notebook`` via SSH tunnel for remote access
 
